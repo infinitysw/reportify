@@ -56,6 +56,7 @@ module Reportify
     end
 
     def report_summary(rows)
+      return if rows.empty?
       return rows unless has_column_summary? || has_row_summary?
       col_total_row = build_column_total(rows)
       rows.each do |row|
