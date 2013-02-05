@@ -1,1 +1,1 @@
-rvm --create 1.9.2-p320@reportify
+rvm --create 1.9.3-p327@reportify
